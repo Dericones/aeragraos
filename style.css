@@ -20,7 +20,6 @@ img {
 }
 
 abbr {
-  
 }
 
 /*=========== VARIABLES ===========*/
@@ -340,13 +339,13 @@ nav.show div.icon-close {
 
 #about .image {
   position: relative;
-  margin-left: 4.5rem;
+  margin-left: 2.5rem;
 }
 
 #about .image::before {
   content: '';
   height: 120%;
-  width: 100%;
+  width: 110%;
   max-width: 30rem;
   background: var(--base-color-second);
   position: absolute;
@@ -721,7 +720,7 @@ footer .social a:hover {
     --subtitle-font-size: 1.125rem;
   }
 
-    /* NAVIGATION */
+  /* NAVIGATION */
 
   nav .menu {
     opacity: 1;
@@ -748,7 +747,6 @@ footer .social a:hover {
     display: none;
   }
 
-  
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -845,17 +843,14 @@ footer .social a:hover {
   }
 }
 
-
 /* medium devices: 767 > */
 @media (min-width: 767px) {
-
   /* ABOUT */
 
   #about .image {
     align-items: center;
     justify-content: center;
   }
-
 
   /* BENEFITS */
 
@@ -867,7 +862,6 @@ footer .social a:hover {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-
 
   /* CONTACT */
 
@@ -885,15 +879,14 @@ footer .social a:hover {
   footer.section {
     padding: 3.75rem 0;
   }
-  
+
   footer .container {
     grid-auto-flow: column;
     align-items: center;
     justify-content: space-between;
   }
-  
+
   footer .logo {
     font-size: 2.25rem;
   }
-
 }
